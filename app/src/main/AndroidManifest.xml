@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.wassilkhetim.android4a">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".injection.Application"
         android:allowBackup="true"
@@ -10,9 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".presentation.body.HomePageActivity"></activity>
-        <activity android:name=".presentation.main.CreateAccountActivity" />
-        <activity android:name=".presentation.main.MainActivity">
+        <activity android:name=".presentation.body.PersonnageInfoActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".presentation.body.HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".presentation.main.CreateAccountActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".presentation.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
