@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
+    android:background="@color/background_midGray"
     tools:context=".presentation.main.MainActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -52,6 +53,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_orange_dark"
         app:layout_constraintBottom_toTopOf="@id/create_account_button"
         app:layout_constraintLeft_toLeftOf="@+id/create_account_button"
         app:layout_constraintRight_toRightOf="@+id/create_account_button"
@@ -62,6 +64,7 @@
         android:id="@+id/create_account_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_marginTop="@dimen/spacing_normal"
         app:layout_constraintBottom_toBottomOf="parent"
