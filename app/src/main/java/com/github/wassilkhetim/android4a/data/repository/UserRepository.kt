@@ -18,4 +18,8 @@ class UserRepository(
         return userLocal?.toEntity()
     }
 
+    fun getNumberUsers(login: String) : Int {
+        return databaseDao.nbLogin(login)
+    }
+
 }
