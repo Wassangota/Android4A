@@ -15,6 +15,9 @@ interface DatabaseDao {
     @Query("SELECT * FROM userlocal WHERE login LIKE :login AND password LIKE :password LIMIT 1")
     fun findByEmail(login: String, password: String): UserLocal?
 
+    @Query("SELECT count(*) FROM userlocal WHERE login LIKE :login")
+    fun nbLogin(login: String): Int
+
     @Insert
     fun insert(user: UserLocal)
 
