@@ -45,8 +45,8 @@ En arrivant sur cet écran on voit 3 champs éditables ( login, password et conf
 Si le login est déjà utilisé, cela affiche une erreur.
 
 <p float="left">
-  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590081995.png width=25%>
-  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082067.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1609277495.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1609277544.png width=25%>
 </p>
 
 #### Écran après connexion
