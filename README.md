@@ -65,9 +65,8 @@ Lorsque l'on lance l'application pour la première fois elle va effectuer un app
 Lorsque l'on clique sur le nom de l'un des personnages dans la liste, l'application ouvre une nouvelle fenêtre (activity) donnant diverses détails du personnages.
 
 <p float="left">
-  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082126.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1609335557.png width=25%>
   <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082151.png width=25%>
-  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082160.png width=25%>
 </p>
 
 On peut notamment voir la différence au niveau du bouton retour grace au design (blanc ancienne version).
