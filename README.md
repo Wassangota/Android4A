@@ -34,10 +34,20 @@ Voici les éléments qui ont été respectés et ajoutés :
 Lorsque l'on lance l'application, on arrive sur une page de connexion contenant deux champs de texte editables( login et password) ainsi que deux boutons( login et create account).
 Pour le connexion, si les identifiants sont incorrectes cela affiche une erreur.
 
+<p float="left">
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590081995.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082067.png width=25%>
+</p>
+
 #### Écran d'inscription
 
 En arrivant sur cet écran on voit 3 champs éditables ( login, password et confirm password ) et le bouton pour valider l'inscription.
 Si le login est déjà utilisé, cela affiche une erreur.
+
+<p float="left">
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590081995.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082067.png width=25%>
+</p>
 
 #### Écran après connexion
 
@@ -57,3 +67,5 @@ Lorsque l'on clique sur le nom de l'un des personnages dans la liste, l'applicat
   <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082151.png width=25%>
   <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082160.png width=25%>
 </p>
+
+On peut notamment voir la différence au niveau du bouton retour grace au design (blanc ancienne version).
