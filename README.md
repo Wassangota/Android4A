@@ -12,7 +12,7 @@ un système d'authentification et de création de compte.
 
 Voici les éléments qui ont été respectés et ajoutés :
 
-#### Éléments obligatoires (6/7):
+#### Éléments obligatoires (7/7):
 
 - Design;
 - Écran avec une liste d'éléments;
@@ -20,7 +20,7 @@ Voici les éléments qui ont été respectés et ajoutés :
 - MVVM;
 - Clean Architecture;
 - Mise en place d'une base de données avec Room
-- //Test unitaire//
+- Language Kotlin;
 
 #### Éléments bonus :
 
