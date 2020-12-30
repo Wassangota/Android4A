@@ -35,8 +35,8 @@ Lorsque l'on lance l'application, on arrive sur une page de connexion contenant 
 Pour le connexion, si les identifiants sont incorrectes cela affiche une erreur.
 
 <p float="left">
-  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590081995.png width=25%>
-  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082067.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1609277463.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1609277513.png width=25%>
 </p>
 
 #### Écran d'inscription
