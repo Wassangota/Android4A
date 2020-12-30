@@ -56,6 +56,8 @@ Lorsque l'on lance l'application pour la première fois elle va effectuer un app
 <p float="left">
   <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590081995.png width=25%>
   <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1590082067.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1609335546.png width=25%>
+  <img src=https://github.com/Wassangota/Android3A/blob/master/Screenshots/Screenshot_1609277476.png width=25%>
 </p>
 
 #### Écran détail du personnage :
