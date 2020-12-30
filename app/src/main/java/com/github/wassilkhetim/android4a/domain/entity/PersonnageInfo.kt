@@ -1,20 +1,22 @@
 package com.github.wassilkhetim.android4a.domain.entity
 
-class PersonnageInfo {
-    private val id: Int? = null
-    private val name: String? = null
-    private val status: String? = null
-    private val species: String? = null
-    private val type: String? = null
-    private val gender: String? = null
-    private val origin: LocationInfo? = null
-    private val location: LocationInfo? = null
-    private val image: String? = null
-    private val episode: List<String?>? = null
-    private val url: String? = null
-    private val created: String? = null
+class PersonnageInfo(
+    val id: Int,
+    val name: String,
+    val status: String,
+    val species: String,
+    val type: String,
+    val gender: String,
+    val origin: LocationInfo,
+    val location: LocationInfo,
+    val image: String,
+    val episode: List<String?>,
+    val url: String,
+    val created: String
+) {
 
-    fun getId(): Int? {
+
+    /*fun getId(): Int? {
         return id
     }
 
@@ -60,6 +62,6 @@ class PersonnageInfo {
 
     fun getCreated(): String? {
         return created
-    }
+    }*/
 
 }
