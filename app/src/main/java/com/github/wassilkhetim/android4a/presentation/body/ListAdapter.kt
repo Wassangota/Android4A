@@ -63,24 +63,24 @@ class ListAdapter // Provide a suitable constructor (depends on the kind of data
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
         val name = values[position]
-        if (name.getImage() != null && !name.getImage().equals("")) contextParentRow?.let {
+        if (name.image != null && !name.image.equals("")) contextParentRow?.let {
             Glide.with(it)
-                .load(name.getImage()).circleCrop().into(holder.imageView)
+                .load(name.image).circleCrop().into(holder.imageView)
         }
-        holder.txtHeader.text = name.getName()
+        holder.txtHeader.text = name.name
         holder.txtHeader.setOnClickListener{
             v ->
             var intent = Intent(holder.layout.context, PersonnageInfoActivity::class.java).apply {
-                putExtra("name", name.getName())
-                putExtra("status",name.getStatus())
-                putExtra("species",name.getSpecies())
-                putExtra("origin",name.getOrigin()?.getName())
-                putExtra("location",name.getLocation()?.getName())
-                putExtra("image",name.getImage())
+                putExtra("name", name.name)
+                putExtra("status",name.status)
+                putExtra("species",name.species)
+                putExtra("origin",name.origin?.name)
+                putExtra("location",name.location?.name)
+                putExtra("image",name.image)
             }
             holder.layout.context.startActivity(intent)
         }
-        holder.txtFooter.text = "Origin: ${name.getOrigin()?.getName()}"
+        holder.txtFooter.text = "Origin: ${name.origin?.name}"
     }
 
     // Return the size of your dataset (invoked by the layout manager)
